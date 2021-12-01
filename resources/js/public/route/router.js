@@ -8,6 +8,7 @@ import Home from '../../components/public/Home.vue'
 import Login from '../../components/public/Login.vue'
 import Register from '../../components/public/Register.vue'
 import Dashboard from '../../components/public/Dashboard.vue'
+import About from '../../components/public/About.vue'
 
 
 
@@ -25,20 +26,23 @@ const router = new VueRouter({
         {
             path: "/login",
             name: "Login",
-            component: Login,
-            meta: { guestOnly: true }
+            component: Login
         },
         {
             path: "/register",
             name: "Register",
             component: Register,
-            meta: { guestOnly: true }
         },
         {
             path: "/dashboard",
             name: "Dashboard",
-            component: Dashboard,
-            meta: { authOnly: true }
+            component: Dashboard
+
+        },
+        {
+            path: "/about",
+            name: "About",
+            component: About
         },
         {
             path: '*',

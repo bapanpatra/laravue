@@ -36,7 +36,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import locale from 'element-ui/lib/locale/lang/en'
 
 Vue.use(ElementUI, { locale })
-
+axios.defaults.baseURL = 'https://laravel.gowebbidemo.com/122245/public/';
 Vue.component('home-main', require('./components/public/PublicMaster.vue').default);
 
 /**

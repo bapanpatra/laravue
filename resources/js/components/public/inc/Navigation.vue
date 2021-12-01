@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand navbar-dark bg-dark">
         <div class="container">
             <div class="navbar-header">
-                <router-link class="navbar-brand" :to="{ name: 'Home' }">Swadesh</router-link>
+                <router-link class="navbar-brand" :to="{ name: 'Home' }">CodeClouds</router-link>
             </div>
             <ul class="nav navbar-nav">
                 <router-link
@@ -18,6 +18,14 @@
 
                 >
                     Register
+                </router-link>
+                <router-link
+
+                        class="nav-item nav-link"
+                        :to="{ name: 'About' }"
+
+                >
+                    About
                 </router-link>
             </ul>
         </div>

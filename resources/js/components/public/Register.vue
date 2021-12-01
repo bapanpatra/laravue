@@ -3,7 +3,7 @@
         <h1 class="text-center">Register</h1>
         <div class="card">
             <div class="card-body">
-                <form @submit.prevent="UserRegister()">
+                <form @submit.prevent="UserRegister()" >
                     <div class="form-group">
                         <label for="name">Name:</label>
                         <input
@@ -62,7 +62,15 @@
         data(){
             return {
                 form: new Form({
-                    name:'',
+                    f_name:'Bidyut',
+                    l_name:'Patra',
+                    phone_no:'+918371894035',
+                    address:'Test',
+                    latitude:'12.20',
+                    longitude:'12.20',
+                    state_id:'1',
+                    city_id:'1',
+                    zip_code:'713148',
                     email:'',
                     password:'',
                     password_confirmation:'',
