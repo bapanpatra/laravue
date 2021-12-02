@@ -13,8 +13,8 @@
                     <th>Email</th>
                     <th>Action</th>
                 </tr>
-                <tr v-for="(user,index) in users.data">
-                    <td>{{index+1}}</td>
+                <tr>
+                    <td>1</td>
                     <td>{{user.name}}</td>
                     <td>{{user.email}}</td>
                     <td></td>
@@ -30,16 +30,12 @@
         name: "Dashboard",
         mounted(){
             this.$store.dispatch("getUser")
-            this.$store.dispatch('getAllUsers');
-
         },
         computed:{
             user(){
                 return this.$store.getters.getUser
             },
-            users(){
-               return this.$store.getters.getAllUsers
-            }
+
 
         },
     }

@@ -22,6 +22,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 // router
 import router from './public/route/router';
 
+import store from "./public/store/index"
+
 // V-form
 import { Form, HasError, AlertError } from 'vform'
 
@@ -48,4 +50,5 @@ Vue.component('home-main', require('./components/public/PublicMaster.vue').defau
 const app = new Vue({
     el: '#app',
     router,
+    store
 });
