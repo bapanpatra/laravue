@@ -1,0 +1,54 @@
+{
+    "type":"FeatureCollection",
+    "name":"waypoints",
+    "crs":{
+        "type":"name",
+        "properties":{
+            "name":"urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features":[
+        {
+            "type":"Feature",
+            "properties":{
+                "ele":33.92,
+                "time":"2021\/05\/03 03:38:02+00"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    23.5027064,
+                    87.35509449999999
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "ele":33.89,
+                "time":"2021\/05\/03 03:38:03+00"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    23.4535672,
+                    87.4475145
+                ]
+            }
+        },
+        {
+            "type":"Feature",
+            "properties":{
+                "ele":33.88,
+                "time":"2021\/05\/03 03:38:04+00"
+            },
+            "geometry":{
+                "type":"Point",
+                "coordinates":[
+                    23.2497638,
+                    87.86894939999999
+                ]
+            }
+        }
+    ]
+}
